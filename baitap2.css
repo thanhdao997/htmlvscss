@@ -1,0 +1,22 @@
+h1 {
+	text-align: center;
+	color: #006600
+}
+#yeucau {
+	text-decoration-line: underline;
+	color: #0000FF
+}
+#td {
+	font-weight: bold;
+}
+#me{
+	text-align: center;
+	background-color: #FECFFD;
+	color: #FF3399;
+}
+div{
+	font-style: italic;
+	text-align: center;
+	background-color: #FFFFCC;
+	color: #8D9AE7;
+}

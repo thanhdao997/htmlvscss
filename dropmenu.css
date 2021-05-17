@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+ul{
+	list-style-type: none;
+}
+.dropdown-menu{
+	width: 500px;
+	height: 500px;
+}
+.dropdown-menu p{
+	font-size: 20px;
+	font-weight: bolder;
+}
+.news{
+	float: right;
+}
+.perspective{
+	float: left;
+}
+.world{
+	float: right;
+}
+.demo{
+	
+}

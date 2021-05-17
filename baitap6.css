@@ -1,0 +1,40 @@
+ /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+ 	background-color: #f2f2f2;
+    margin: 20px auto;
+    padding: 30px 0 100px;
+    text-align: center;
+    width: 870px;
+  }
+img{
+	size: 300px;
+}
+h1{
+	text-align: center;
+	margin-bottom: 25px;
+}
+.invite .text{
+	text-align: center;
+	margin-bottom: 25px;
+}
+.invite form input[type=email]{
+	background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    font-size: 17px;
+    padding: 20px 10px;
+    width: 360px;
+}
+.invite form button[type=submit]{
+	background-color: #AEAFE6;
+	border: 1px solid:#F2D2D2;
+	font-size: 15px;
+	padding: 20px 10px;
+	width: 200px;
+	border-radius: 6px;
+	
+}

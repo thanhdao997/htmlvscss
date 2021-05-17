@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	color: #AC6666
+}
+#menu ul {
+	background: #A1E2D5;
+	list-style-type: none;
+	text-align: center;
+}
+#menu li {
+	color: #123BD4;
+	display: inline-block;
+	width: 120px;
+	height: 20px;
+	line-height: 50px;
+	margin-left: -5px
+} 
+#menu a{
+	text-decoration: none;
+	color: #3F55B5;
+	display: block;
+}
+#menu a:hover {
+	background-color: #DAEDEB;
+	color: #5D991C;
+}

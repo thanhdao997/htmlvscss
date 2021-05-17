@@ -1,0 +1,66 @@
+ /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  ul{ 
+  	list-style-type: none;
+  }
+  body {
+  	color: #000;
+  	font-family: Helvetica, sans-serif;
+  	font-size: 16px; 
+  	line-height: 1.8;
+  	background-color: #B1FFBA;
+  }
+  .tintuc{
+  	zoom: 1;
+  }
+   .tintuc:after {
+    
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+  }
+  /*layout*/
+  .tintuc{
+  	margin: 30px auto;
+  	width: 1000px;
+  }
+  .tintuc .anh{
+  	float: left;
+  	width: 300px;
+  }
+ .tintuc .nd{
+ 	float: right;
+ 	width: 640px;
+ } 
+.tintuc .nd h2{
+	font-size: 30px;
+	font-weight: 400;
+	margin: 10px 0 12px;
+	text-transform: uppercase;
+}
+.tintuc .nd .thongtin{
+	margin-bottom: 18px;
+}
+.tintuc .nd p{
+	 margin-bottom: 30px;
+}
+.tintuc .nd .detail a{
+	 border: 2px solid #333;
+    border-radius: 4px;
+    color: #333;
+    display: inline-block;
+    padding: 5px 20px 1px;
+    min-width: 70px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+.tintuc .nd .detail .a:hover{
+    background-color: #333;
+    color: #fff;
+}
